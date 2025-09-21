@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title> My Portfolio</title>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet"/>
+        <link rel="stylesheet" href="style.css"/>
+        <script defer src="script.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    </head>
+    <body>
+        <div class="overlay"></div>
+        <div class="glass-card">
+            <h2>Welcome to My Portfolio</h2>
+            <p>Creative Web Developer | Designer | PLP Learner</p>
+        </div>
+        <header>
+            <h1>Nyaosi Joshua</h1>
+            <div class="profile-pic">
+                <img src="images/PROFILE.png" alt="profile picture">
+            </div>
+            <label class="dark-toggle">
+                <input type="checkbox" id="darkmode-toggle"/>
+                <span class="toggle-slider"></span> Dark Mode
+            </label>
+        </header>
+        <nav>
+            <a href="#About">About</a>
+            <a href="#Projects">Projects</a>
+            <a href="#Skills">Skills</a>
+            <a href="#Contact">Contact</a>
+        </nav>
+
+        <section id="About" class="About">
+            <div class="About-grid">
+                <div class="About-box">
+            <h2>About Me</h2>
+            <p>Hello I'm a self-taught tech enthusiast with a passion for web development, networking and Cybersecurity. I build beautiful, functional websites using HTML and CSS. I'm currently expanding my skills into Javascript frameworks and secure web practices. With a keen interest in technology and digital security, I'm actively learning how to build secure networks and defend systems against cyber threats while crafting user-first digital experiences. </p>
+            </div>
+        </div>
+        </section>
+
+        <section id="Projects" class="Projects">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                <h3>Portfolio Website</h3>
+                <p>A site to showcase my skills and projects using HTML/CSS only.</p>
+            </div>
+            <div class="project-card">
+                <h3>Product Landing Page</h3>
+                <p>A modern, responsive layout for a fictional tech product landing page.</p>
+            </div>
+            <div class="project-card">
+                <h3>Blog Template</h3>
+                <p>A minimal blog layout styled with custom fonts and colors.</p>
+            </div>
+            <div class="page wrapper">
+                <!-- everything goes inside this -->
+
+            </div>
+            </div>
+        </section>
+
+        <section id="Skills" class="Skills">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <div class="skills-card">
+                    <h3>Web Development</h3>
+                    <ul>
+                        <li>HTML5 & CSS</li>
+                        <li>Basic JavaScript</li>
+                        <li>Responsive Design</li>
+                    </ul>
+            </div>
+
+            <div class="skills-card">
+                <h3>Cybersecurity</h3>
+                <ul>
+                    <li>Cybersecurity Fundamentals</li>
+                    <li>Network Security Awareness</li>
+                    <li>Threat Detection Basics</li>
+                </ul>
+            </div>
+
+            <div class="skills-card">
+                <h3>Networking</h3>
+                <ul>
+                    <li>Networking Concepts</li>
+                    <li>IP Addressing & Subnetting</li>
+                    <li>Basic Router & Switch Configuration</li>
+                </ul>
+            </div>
+
+            <div class="skills-card">
+                <h3>Tools</h3>
+                <ul>
+                    <li>VS Code, GItHub</li>
+                    <li>Linux Terminal Basics</li>
+                </ul>
+            </div>
+            </div>
+           </div>
+        </section>
+
+        <section id="Achievements" class="Achievements">
+            <h2>Achievements</h2>
+            <div class="achievements-grid">
+            <div class="achievements-card">
+                <h3>🎖️ Cisco Introduction to Cybersecurity</h3>
+                <p>Completed the Networking Academy's Introduction to Cybersecurity course, gaining foundational knowledge of threats, vulnerabilities, and how to protect digital assets.</p>
+                <a href="https://www.credly.com/badges/ea1d1a2d-9f38-45d6-a8c8-fa7ad410a730/public_url" target="_blank" class="btn-link">View Badge</a>
+            </div>
+           <div class="achievements-card">
+            <h3>📜Web Development Participation</h3>
+            <p>Recognized for active participation in a hands-on web development learning program</p>
+            <a href="https://drive.google.com/file/d/1GsVC2zcvBb_FpmVt74L1cTHJjd0vvD4p/view?usp=drive_link" target="_blank" class="btn-link">View Certificate</a>
+            </div>
+
+            <section id="cv" class="skills-card">
+                <h2>Download My CV</h2>
+                <p>You can download my full resume below</p>
+                <a href="assets/NYAOSI CV.pdf" download class="btn-link">📄 Download CV</a>
+            </section>
+            <section id="Contact Me" class="Contact">
+                <h2>Contact Me</h2>
+                <p>Feel free to reach out to me!</p>
+     <form action="mailto:youremail@example.com" method="POST" enctype="text/plain">
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="email" name="email" placeholder="Your Email" required>
+    <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+    <button type="submit" class="btn-link">Send Message</button>
+  </form>
+            </div>
+            </div>
+        </section>
+        <footer>
+    <a href="https://github.com/Nya0si" target="_blank"><i class="fab fa-github"></i></a>
+    <a href="www.linkedin.com/in/joshua-nyaosi-7b7a3b379" target="_blank"><i class="fab fa-linkedin"></i></a>
+    <a href="https://twitter.com/Nya0si" target="_blank"><i class="fab fa-twitter"></i></a>
+    <a href="mailto:youremail@nyaosi44@gmail.com"><i class="fas fa-envelope"></i></a>
+           <p>&copy; 2025 Ogembo Joshua. All rights reserved</p>
+        </footer>
+    </body>
+</html>

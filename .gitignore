@@ -1,0 +1,21 @@
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# node (if you later use npm)
+node_modules/
+
+# log files
+*.log
+
+# backup files
+*.bak
+*.tmp
+
+# personal
+assets/OGEMBO-JOSHUA-CV.pdf
